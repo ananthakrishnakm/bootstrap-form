@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,500&family=Montserrat:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>bootstrapcourse</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container p-3">
+            <form>
+                <div class="row main gap-3">
+                    <div class="col-lg submain  p-4">
+                        <div class="row mb-3">
+                            <h3>Basic Details</h3>
+                        </div>
+                        <div class="row">
+                            <div class="card text-center mb-3">
+                                <div class="card-body  ">
+                                    <i class="fa-solid fa-upload"></i>
+                                    <h5>Upload Image</h5>
+                                    <p>PNG, JPG files are allowed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-4">
+                                <label for="form" class="form-label">Salutation <span
+                                        class="text-danger">*</span></label>
+                                <select class="form-select choice" aria-label="Default select example" id="form">
+                                    <option selected>select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label"> first
+                                        name<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="jhon">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label"> last
+                                        name<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="doe">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">email<span
+                                            class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="mail@simmmple.com">
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">mobile
+                                        number<span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="enter mobile number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Date of Birth
+                                        <span class="text-danger">*</span></label>
+                                    <input type="date" class="form-control date " id="exampleFormControlInput1"
+                                        placeholder="select date of birth">
+                                </div>
+                            </div>
+                            <div class="col-sm mb-2">
+                                <label for="exampleFormControlInput1" class=" col-12 form-label">Gender
+                                    <span class="text-danger">*</span></label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">male</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">female</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Address <span
+                                            class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="enter address">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-6 mb-3">
+                                <label for="form" class="form-label">Country<span class="text-danger">*</span></label>
+                                <select class="form-select choice" aria-label="Default select example" id="form">
+                                    <option selected>select Country</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <label for="form" class="form-label">State<span class="text-danger">*</span></label>
+                                <select class="form-select choice" aria-label="Default select example" id="form">
+                                    <option selected>select State</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="exampleFormControlInput1" class="form-label">City <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="enter city">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="exampleFormControlInput1" class="form-label">Pin/Zip <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="enter zip/pin">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg submain  p-4">
+                        <div class="row mb-3 ">
+                            <h3>Advanced Details</h3>
+                        </div>
+                        <div class="row warning_box mb-3">
+                            <div style="border-radius: 12px;border: 1px solid #FBE7A5;background: #FDF4D1"
+                                class="col-12 warningblocks mb-3 ">
+                                <h5>Sample warning messages - alert</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum felis.
+                                    Aliquam erat volutpat. Donec faucibus mauris vel nibh sodales feugiat. Donec
+                                    suscipit felis vitae orci porttitor congue.</p>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-6">
+                                <label for="customRange1" class="form-label">Height<span
+                                        class="text-danger">*</span></label>
+                                <div class="row  d-flex align-items-center ">
+                                    <div class="col-8">
+                                        <input type="range" class="form-range col-8 mt-1" id="customRange1">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <span class="border border-2">160cm</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="customRange1" class="form-label ">Weight <span
+                                        class="text-danger">*</span></label>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-sm-8">
+                                        <input type="range" class="form-range col-8 mt-1" id="customRange1">
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <span class="border border-2">160cm</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-5">
+                                <label for="customRange1" class="form-label">choose color<span
+                                        class="text-danger">*</span></label>
+                                <input type="color" class="form-control col-2" value="#CB5D9F"
+                                    id="exampleFormControlInput1" placeholder="color">
+                            </div>
+                            <div class="col-sm-7 mb-3">
+                                <label for="customRange1" class="form-label col-12">Choose Templates<span
+                                        class="text-danger">*</span></label>
+                                <div class="row mb-0">
+                                    <div class="col-sm-4 form-check-inline">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Template1
+                                        </label>
+                                    </div>
+                                    <div class="col-sm-4 form-check-inline">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Template2
+                                        </label>
+                                    </div>
+                                    <div class="col-sm-4 form-check-inline">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Template3
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Qualifications
+                                    <span class="text-danger">*</span></label>
+                                <input type="qualification" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="enter qualifications">
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-sm mb-4 ">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">About Your Self<span
+                                            class="text-danger">*</span></label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                                        placeholder="enter here..." rows="8" resize=none></textarea>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-sm">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                        checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        I Accept Terms & Conditions
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer p-3">
+                    <button type="button" class="btn btn-light">Cancel</button>
+                    <button type="button" class="btn btn-primary ">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
